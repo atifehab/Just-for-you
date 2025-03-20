@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div >
+            <h1 class = "header_text"> Do You forgive me?</h1>
+        </div>
+        <div class="gif_container">
+            <div 
+            class="tenor-gif-embed" data-postid="17669790902581588779" data-share-method="host" data-aspect-ratio="1.23595" data-width="100%">
+            <img src="https://tenor.com/view/sad-sorry-im-sorry-stitch-apologetic-gif-17669790902581588779">Sad Sorry Im Sorry GIF</a>
+                from <a href="https://tenor.com/search/sad-gifs">Sad GIFs</a></div> 
+                <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </div>
+        <div class="buttons">
+            <button class = "btn" id = "yesButton" onclick="nextPage()">Yes</button>
+            <button class = "btn" id = "noButton">No</button>
+            <script>
+                function nextPage() 
+                {
+                    window.location.href = "yes.html";
+                }
+
+                function moveButton(elm) 
+                {
+                    elm.style.position = "absolute";
+                    elm.style.top = Math.random() * (window.innerHeight - elm.offsetHeight) + "px";
+                    elm.style.left = Math.random() * (window.innerWidth - elm.offsetWidth) + "px";
+                }
+                const moveRandom = document.querySelector("#noButton");
+                moveRandom.addEventListener("mouseover", function() {
+                    moveButton(moveRandom);
+                });
+                moveRandom.addEventListener("mouseenter", function() {
+                    moveButton(moveRandom);
+                });
+            </script>
+        </div>
+    </div>
+
+
+</body>
+</html>

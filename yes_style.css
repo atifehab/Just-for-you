@@ -1,0 +1,38 @@
+body 
+{
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.header_text1
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: blueviolet;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.header_text2
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.gif_container .tenor-gif-embed
+{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+}
